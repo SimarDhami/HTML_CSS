@@ -1,0 +1,53 @@
+/* h1{
+    color: red;
+}
+span{
+    color:burlywood;
+}
+p{
+    color: purple;
+} */
+
+/* grouping selector */
+/* h1,span,p{
+    color:blue;
+    font-size: 30px;
+} */
+/* id pick kiya iske index2.html se */
+/* #hello-css{
+    color:yellow;
+
+}
+#hello-html{
+    color: green;
+} */
+
+/* # se id selector and . se class selector */
+
+/* #hello-css,#hello-html{
+    font-size: 50px;
+}
+
+.third-para{
+    color: hotpink;
+}  */
+
+/* hex,rgb,rgba */
+
+h1{
+    /* color: rgb(22, 150,70);  for rgb*/
+    /* color: #bb3125; for hex */
+    color: rgba(23, 45, 48, 0.7); /* for rgba */
+    background: red; /* full leta as it is block element */
+    border: 2px solid;
+    border-color: purple;
+    font-size: 30px;
+    font-weight: 100; /*we can use bold also */
+    /* font-style: italic;
+    text-align: left; */
+    /*letter-spacing: 10px; letter ke beech mai space*/
+    /*word-spacing: 20px; words ke beech mai space*/
+    line-height: 40px;
+
+
+}

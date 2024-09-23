@@ -1,0 +1,63 @@
+/* a{
+    font-size: 30px;
+    text-decoration: none; /* imp 
+    color: rgb(121, 79, 2);
+} */
+/* a:hover{
+    color: rgb(76, 0, 255);
+}
+
+a:focus{
+    color: green;
+} */
+
+/* #list-item{
+    list-style-type: "none";
+} */
+/* we can also add custom items */
+
+/* it is a universal selector: *, it apply style to all the elements*/
+/* *{
+    color: rgb(17, 126, 90);
+    text-decoration: underline;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}*/
+
+input{
+    border: 2px solid rgb(255, 252,86);
+}
+
+input[type="email"]{
+    border: 2px solid rgb(51, 85, 196);
+}
+
+input[type="password"]{
+    border: 2px solid rgb(196, 30, 187);
+}
+
+a{
+    font-size: 30px;
+}
+
+/* jis mai link word h unn sabmai changes krdeta */
+a[href*="link"]{
+    font-size: 100px;
+}
+
+/* agr sirf div vale ko target krna jaha p h */
+#parent-div p{
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(214, 96, 0);
+}
+
+#parent-div-two p{
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+
+
+
