@@ -58,6 +58,36 @@ a[href*="link"]{
     text-decoration: underline;
 }
 
+/* yaha pr saare span ko target kr rha */
+/* #parent-div span{
+    font-size: 30px;
+    color: blueviolet;
+} */
+/* yaha prr sirf parent span change ho rha */
+#parent-div > span{
+    font-size: 30px;
+    color: blueviolet;
+}
 
+div.helloworld{
+    font-size: 40px;
+}
 
+div.randomclass{
+    font-size: 30px;
+    color: firebrick;
+}
+
+.box{
+    padding: 20px;
+    border: 4px dotted maroon;
+    margin: 10px 20px 30px 40px;
+    width: 200px;
+    /* width and height px ya % mai de sakte  */
+    height: 200px;
+    box-sizing: border-box; /* taaki koi extra size na badhe */
+    max-width: 300px; /*max width ho sakti*/
+    display: none;
+    /* isse vo box hi gayab ho jaaega */
+}
 

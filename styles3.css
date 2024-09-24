@@ -1,0 +1,34 @@
+h1{
+    color: orange;
+}
+
+/* .card{
+    width: 500px;
+    height: 500px;
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid yellow ;
+    background-image: url(image/heeh.jpg);
+
+} */
+
+.card{
+    width: 100%;
+    height: 2000px;
+    border: 2px solid yellow ;
+    /* background-image: url(image/heeh.jpg);
+    background-repeat: no-repeat ;
+    background-color: aquamarine;
+    background-position: right top; */
+    /* left bottom, left top, right bottom*/
+    /* background-attachment: fixed; */
+    /* sab try krke dekhna when revise */
+    
+/* shortcut h agr sab nhi likhna toh uska way hai
+phele color, image, repeat, attachment, position */
+    background: red url(image/heeh.jpg) repeat scroll right bottom;
+
+}
+
+
+

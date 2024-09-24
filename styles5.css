@@ -1,0 +1,26 @@
+h1{
+    color: aqua;
+}
+
+.hoverbtn{
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    background-color: #000;
+    color: white;
+    border: 2px solid red;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    /* transition se uss cheej ka color change + kitna time lagega vo batata */
+    /* transition: background-color 3s; */
+    transition: background-color 3s ease-in-out 1s;
+    /* transform: scale(.5); */
+    transform: translate(300px, 200px);
+    transform: rotate(.90turn);
+}
+
+.hoverbtn:hover{
+    background-color: rgb(0, 72, 131);
+    color: orange;
+}
