@@ -1,0 +1,55 @@
+/* hum ek variable bana ke har jagah use kr  sakte */
+
+:root{
+--bg-color:#000;
+--text-color:#fff;
+}
+
+p,h1,button{
+    /* color: rgb(9, 105, 105); */
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+/* using var is a very good practice */
+/* we can use this agr kam cheeze ho nhi toh use css variables */
+
+p{
+   font-size: 20px; 
+}
+
+/* p::before{
+    content: "before content";
+    color: red;
+}
+
+p::after{
+    content: "***";
+    color: green;
+} */
+
+.content{
+    width: 500px;
+    height: 100px;
+    background-color: red;
+    color: black;
+    font-size: 18px;
+    overflow: auto;
+}
+
+.card{
+   /* width: 500px; */
+   width: calc(50%+150px);
+   display: flex;
+   background-color: green;
+   color: white; 
+}
+
+.card p:first-child{
+    width: 100px;
+}
+
+.card p:last-child{
+    width: calc(100% - 100px);
+    /* yaha space deni boht jaroorat h varna nhi chalega imp yaad rakhna */
+    /* here we can use +,-,*,/, anything */
+}

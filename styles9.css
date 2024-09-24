@@ -1,0 +1,48 @@
+.card{
+    width: 250px;
+    height: 250px;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    /* animation-name: changetextcolor;  */
+    /* keyframe name */
+    animation-name: changetransition; 
+
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-delay: 3s;
+}
+
+/* @keyframes changetextcolor {
+    from{
+        color: red;
+        background-color: black;
+    }
+    to{
+        color: yellow;
+        background-color: blue;
+    }
+} */
+
+@keyframes changetransition{
+    0%{
+        transform: translateX(300px);
+        background-color: yellow;
+    }
+    25%{
+        transform: translateX(250px);
+        background-color: blue;
+    }
+    50%{
+        transform: translateX(280px);
+        background-color: aqua;
+    }
+
+    100%{
+        transform: translateX(0px);
+        background-color: brown;
+    }
+}
