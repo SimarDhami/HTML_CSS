@@ -1,0 +1,84 @@
+.title{
+    margin: 0px;
+    font-size: 20px;
+}
+
+/* parent container */
+.flex-container{
+    width: 1200px;
+    border:2px solid red;
+    margin-top: 20px ;
+/* flex dikhane ke liye display flex krna padega */
+    display: flex;
+    flex-direction: row;
+    /* row is default */
+    flex-wrap: wrap;
+    justify-content: center ;
+    height: 300px;
+    align-items: center;
+    align-content: center;
+}
+
+.flex-item{
+    width: 100px;
+    height: 100px;
+    font-size: 18px;
+    color: white;
+    font-weight: bolder;
+    order: 1;
+}
+
+/* .flex-item.item2{
+    align-self: flex-start;
+}
+
+.flex-item.item4{
+    align-self: flex-end;
+} */
+
+.flex-item.item5{
+    order: -1;
+}
+.flex-item.item4{
+    order: -2;
+}
+
+.flex-item.item3{
+    order: 2;
+}
+
+
+.content{
+    /* width: 80%; */
+    width: 1200px;
+    border: 2px solid;
+    display: flex;
+    height: 350px;
+    justify-content: space-between;
+
+}
+
+/* jitna bada flex grow utni priority */
+.content-one{
+    background-color: red;
+    color: white;
+    /* flex-grow: 2; */
+    width: 1000px;
+    flex-shrink: 2;
+    /* 2 matlab content twice shrink ho rha */
+}
+.content-two{
+    background-color: rgb(0, 255, 242);
+    color: black;
+    /* width: 250px; */
+    /* width: 1000px; */
+    /* flex-grow: 1; */
+    flex-basis: 600px;
+    /* flex direction row h toh width, column h toh height ::flex basis direction ke basis prr krta h*/
+}
+.content-three{
+    background-color: rgb(255, 0, 221);
+    color: white;
+    width: 1000px;
+}
+

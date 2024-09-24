@@ -1,0 +1,43 @@
+body {
+  background-color: red;
+}
+
+.title {
+  font-size: 100px;
+}
+
+.items-wrapper {
+  display: flex;
+}
+
+.items-wrapper p {
+  width: 200px;
+  font-size: 40px;
+}
+
+.items-wrapper p:first-child {
+  background-color: green;
+}
+
+.items-wrapper p:last-child {
+  background-color: rgb(255, 143, 162);
+}
+
+/* responsive ke liye aur agr 1200 se kam toh changes honge*/
+/* @media only screen and (max-width: 1200px) {
+  .title {
+    font-size: 50px;
+  }
+  body {
+    background-color: deepskyblue;
+  }
+  .items-wrapper {
+    flex-direction: column;
+  }
+} */
+/* 1336 se kam honge toh changes honge */
+@media only screen and (min-width:1366px){
+    body{
+        background-color: orange;
+    }
+}
